@@ -1,4 +1,6 @@
 <Page loaded="pageLoad">
+
+
 <StackLayout orientation="vertical">
     <Label text="Login" />
       <TextField id="email" class="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" 
