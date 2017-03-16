@@ -1,0 +1,15 @@
+<Page loaded="pageLoad">
+<StackLayout orientation="vertical">
+    <Label text="Login" />
+      <TextField id="email" class="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" 
+      text="{{ email }}"/>  
+     
+      <TextField id="pass" hint="Password" secure="true" 
+      text="{{ pass }}"/>  
+      
+      <Button text="Sign in" tap="checkLogin"/>
+
+      <Button text="Sign up for Groceries" tap="goRegister"/>
+
+</StackLayout>
+</Page>
